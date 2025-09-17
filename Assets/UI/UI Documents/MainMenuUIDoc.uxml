@@ -1,11 +1,11 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/Style%20Sheets/Menu_SS.uss?fileID=7433441132597879392&amp;guid=a3200a47e8d50ea4cb7ea4fa184a14b1&amp;type=3#Menu_SS" />
     <ui:VisualElement name="VisualElement" style="align-self: center; width: 100%;">
-        <ui:Label text="SKILL&#10;SHOOTER" name="Title_label" class="maintitle-label" style="width: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 100px; padding-right: 0; padding-bottom: 50px; padding-left: 0;" />
+        <ui:Label text=" Whatcha Know&#10;About Shooting&#10;BALLS?&#10;(◡̀_◡́)&#10;" name="Title_label" class="maintitle-label" style="width: auto; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 100px; padding-right: 0; padding-bottom: 50px; padding-left: 0; color: rgb(203, 150, 186); -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); font-size: 190px;" />
     </ui:VisualElement>
     <ui:VisualElement name="MenuButtons" style="width: 400px; align-self: center; justify-content: space-around; padding-bottom: 100px; padding-top: 50px; flex-grow: 1;">
-        <ui:Button text="Play" name="PlayButton" class="menu-button" />
-        <ui:Button text="Options" name="OptionsButton" enabled="false" class="menu-button" />
-        <ui:Button text="Quit" name="QuitButton" class="menu-button" />
+        <ui:Button text="Play" name="PlayButton" class="menu-button" style="color: rgb(207, 79, 167); -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); font-size: 70px;" />
+        <ui:Button text="Options" name="OptionsButton" enabled="false" class="menu-button" style="color: rgb(172, 53, 149); -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); opacity: 1; font-size: 70px;" />
+        <ui:Button text="Quit" name="QuitButton" class="menu-button" style="color: rgb(140, 44, 116); -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); font-size: 70px;" />
     </ui:VisualElement>
 </ui:UXML>
