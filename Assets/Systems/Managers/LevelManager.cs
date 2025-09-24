@@ -2,10 +2,7 @@
 // NSCC Truro 2025
 // This work is licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-using System;
-using UnityEditor.Rendering;
 using UnityEngine;
-using UnityEngine.ProBuilder.MeshOperations;
 using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
@@ -86,7 +83,7 @@ public class LevelManager : MonoBehaviour
             uIManager.GameplayUIController.UpdateShotsRemainingLabel();
 
             // uIManager.UpdateLevelCount(LevelCount);
-            uIManager.GameplayUIController.SetLevelLabel(nextScene);
+            uIManager.GameplayUIController.SetLevelLabel(SceneManager.GetActiveScene().buildIndex);
 
             // Set the ball to the current level start position           
             ballManager.SetBallToStartPosition();
